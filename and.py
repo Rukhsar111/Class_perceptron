@@ -6,8 +6,6 @@ import pandas as pd
 import numpy as np
 
 def main(data, eta, epochs, filename , PlotFileName):
-    
-
     df = pd.DataFrame(data)
     print(df)
     X,y = prepare_data(df)
